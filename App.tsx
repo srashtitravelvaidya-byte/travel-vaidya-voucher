@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { VoucherForm } from './components/VoucherForm';
-import { VoucherPreview } from './components/VoucherPreview';
+import { VoucherForm } from './components/VoucherForm.tsx';
+import { VoucherPreview } from './components/VoucherPreview.tsx';
 import { VoucherData, Passenger } from './types';
 import { Printer, Edit3, Sparkles } from 'lucide-react';
 import { GoogleGenAI } from "@google/genai";
